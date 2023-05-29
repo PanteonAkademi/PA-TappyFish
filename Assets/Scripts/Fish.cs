@@ -15,7 +15,6 @@ public class Fish : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
     }
 
-    
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
